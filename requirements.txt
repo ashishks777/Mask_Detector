@@ -1,4 +1,4 @@
-tensorflow>=2.5.*
+tensorflow.keras.applications.mobilenet_v2
 keras==2.5.0rc0
 imutils==0.5.4
 numpy
