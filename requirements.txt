@@ -3,7 +3,6 @@ keras==2.5.0rc0
 imutils==0.5.4
 numpy==1.19.5
 opencv-python
-matplotlib==3.2.1
 click==7.1.2
 Flask==1.1.2
 gunicorn==20.0.4
