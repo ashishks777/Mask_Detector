@@ -1,5 +1,5 @@
-tensorflow==2.5.0rc0
-keras==2.5.0rc0
+tensorflow
+keras
 imutils==0.5.4
 numpy==1.19.5
 opencv-python
