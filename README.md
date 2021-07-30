@@ -14,5 +14,7 @@ mask app.ipynb contains the webapp
 
 
 kaggle notebook link-https://www.kaggle.com/ashishks777/face-mask-detection-dei
+
 dataset used for model training-https://www.kaggle.com/andrewmvd/face-mask-detection
+
 github repo link-https://github.com/ashishks777/Mask_Detector.git
