@@ -1,8 +1,4 @@
-import subprocess
-import os
-from subprocess import STDOUT, check_call
-proc = subprocess.Popen('apt-get install -y python3-opencv libsm6 libxext6 ffmpeg libfontconfig1 libxrender1 libgl1-mesa-glx', shell=True, stdin=None, stdout=open(os.devnull,"wb"), stderr=STDOUT, executable="/bin/bash")
-proc.wait()
+
 from tensorflow.keras.models import load_model
 
 import numpy as np
