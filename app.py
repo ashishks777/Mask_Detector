@@ -61,12 +61,11 @@ def detect_and_predict_mask(frame,faceNet,maskNet):
 faceNet=cv2.dnn.readNet('deploy.prototxt','res10_300x300_ssd_iter_140000.caffemodel')
 maskNet=load_model('best.keras')
 
-
+vs=VideoStream(src=0 ).start()
 
 
 
 def video_stream():
-    vs=VideoStream(src=0 ).start()
     while True:
         #grab the frame from the threaded video stream and resize it
         #to have a maximum width of 400 pixels
