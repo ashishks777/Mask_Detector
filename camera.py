@@ -1,3 +1,4 @@
+import subprocess
 from subprocess import STDOUT, check_call
 proc = subprocess.Popen('apt-get install -y libgl1-mesa-glx', shell=True, stdin=None, stdout=open(os.devnull,"wb"), stderr=STDOUT, executable="/bin/bash")
 proc.wait()
